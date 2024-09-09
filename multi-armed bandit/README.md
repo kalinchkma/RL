@@ -19,5 +19,10 @@ Pseudocode:
         - j = argmax(predicted bandit means)
       - x = play bandit j and get reward
       - bandits[j].update_mean(x)
+- Decaying Epsilon:
+  - e(t) <=> 1/t "<=>" (proportional), "e" (epsilon)
+  - e(t) = max(e(0) - kt, e(min))
+  - e(t) = e(0)t
+  - e(t) = a / (log(bt+c))
    
 
