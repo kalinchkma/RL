@@ -48,3 +48,4 @@
   - What is that name of expected value `E(X)` ?
 - Answer:
   - The Expected value also called a **mean** of **x**
+
