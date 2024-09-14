@@ -25,4 +25,8 @@ Pseudocode:
   - e(t) = e(0)t
   - e(t) = a / (log(bt+c))
    
+# Methods
+  - epsilon greedy
+    - optimistic initial value (it usage pure greedy method)
+    - pure greedy
 
