@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
 from scipy.stats import beta
+matplotlib.use('Agg') 
 
 class Bandit:
     def __init__(self, p):

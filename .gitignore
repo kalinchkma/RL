@@ -1,1 +1,3 @@
 venv
+./multi-armed-bandit/plot_save
+./multi-armed-bandit/.ipynb_checkpoints
